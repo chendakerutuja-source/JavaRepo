@@ -1,0 +1,18 @@
+package tuesday_02092025;
+
+public class ReverseAString {
+
+	public static void main(String[] args) {
+		String str="Rutuja";
+		String reverse="";
+		
+		for(int i=str.length()-1;i>=0;i--)
+		{
+			reverse=reverse+str.charAt(i);
+		}
+		System.out.println(reverse);
+				
+
+	}
+
+}
